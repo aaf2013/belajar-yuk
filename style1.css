@@ -1,0 +1,39 @@
+*,
+html {
+margin: 0;
+padding: 0;
+}
+
+
+.container-navbar {
+    background-color: #333333;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar {
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar {
+border: 1px solid white;
+background-color: black;
+list-style-type: none;
+padding: 20px;
+margin: 5px;
+color: white
+}
+.container-content {
+    backround-colour: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content {
+    width: 30%;
+    height: 30%;
+}
